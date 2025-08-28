@@ -53,4 +53,4 @@ def greet(name):
     #Greeting a person by name
     return f"Hi you.., {name}!"
 #Function call
-print
+print(greet("Larry Muia"))
