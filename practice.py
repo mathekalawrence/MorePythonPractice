@@ -46,3 +46,11 @@ while count <= 16:
 for i in range(1, 7): #Outer Loop
     for j in range(1, 7): #Inner loop
         print(f"Outer loop: {i}, Inner loop: {j}")
+
+#Functions in Python
+#Defining and calling a function
+def greet(name):
+    #Greeting a person by name
+    return f"Hi you.., {name}!"
+#Function call
+print
