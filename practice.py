@@ -10,3 +10,8 @@ elif temperature>45:
     print("The temperature is moderate")
 else:
     print("it is cooler")
+
+grade = 90
+if grade >= 90:
+    print("I scored an A")
+    
