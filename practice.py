@@ -33,3 +33,4 @@ for fruit in fruits:
 """
 for number in range(45, 78):
     print(f"Number..: {number}")
+
