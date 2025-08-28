@@ -30,7 +30,12 @@ for fruit in fruits:
 
 #some_strides = range(10)
 # print(some_strides)
-"""
+
 for number in range(45, 78):
     print(f"Number..: {number}")
+"""
 
+count = 2
+while count <= 16:
+    print(f"Count: {count}")
+    count+=2
