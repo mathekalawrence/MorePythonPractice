@@ -4,3 +4,5 @@ try:
         data =  file.read()
 except FileNotFoundError:
     print("File not found!. Please check the file well")
+finally:
+    file.close()
