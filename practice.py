@@ -40,3 +40,5 @@ count = 2 # Sets the starting value
 while count <= 16:
     print(f"Count: {count}")
     count+=5 #Increments the counter
+
+#Breaks in loops
