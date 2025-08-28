@@ -38,4 +38,4 @@ for number in range(45, 78):
 count = 2
 while count <= 16:
     print(f"Count: {count}")
-    count+=2
+    count+=5 #Increments the counter
