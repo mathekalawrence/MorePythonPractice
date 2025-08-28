@@ -54,3 +54,7 @@ def greet(name):
     return f"Hi you.., {name}!"
 #Function call
 print(greet("Larry Muia"))
+
+def add(m, n):
+    return m+n
+print("The value is", add(567, 5267200))
