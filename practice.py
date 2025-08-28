@@ -42,3 +42,7 @@ while count <= 16:
     count+=5 #Increments the counter
 
 #Breaks in loops
+#nested loops
+for i in range(1, 7): #Outer Loop
+    for j in range(1, 7): #Inner loop
+        print(f"Outer loop: {i}, Inner loop: {j}")
