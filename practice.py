@@ -2,7 +2,7 @@
 """
 if angered::
     print("I want to rest early!")
-"""
+
 temperature = 60
 if temperature<40:
     print("The heat is too much!!")
@@ -22,3 +22,7 @@ elif grade <= 60:
     print("D it is!")
 else:
     print("Worst!!.. an E!")
+"""
+
+fruits = ["Mango", "Pineapple", "Cherry", "sWEETBERRY"]
+for
