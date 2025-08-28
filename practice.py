@@ -25,4 +25,5 @@ else:
 """
 
 fruits = ["Mango", "Pineapple", "Cherry", "sWEETBERRY"]
-for
+for fruit in fruits:
+    print(f"I really like {fruit}")
