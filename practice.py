@@ -22,8 +22,14 @@ elif grade <= 60:
     print("D it is!")
 else:
     print("Worst!!.. an E!")
-"""
+
 
 fruits = ["Mango", "Pineapple", "Cherry", "sWEETBERRY"]
 for fruit in fruits:
     print(f"I really like {fruit}")
+
+#some_strides = range(10)
+# print(some_strides)
+"""
+for number in range(45, 78):
+    print(f"Number..: {number}")
