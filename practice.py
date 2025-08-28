@@ -18,3 +18,5 @@ elif grade <= 80:
     print("My score is a B")
 elif grade <=70:
     print("The score is a C")
+elif grade <= 60:
+    print("D it is!")
