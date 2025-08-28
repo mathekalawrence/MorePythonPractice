@@ -11,7 +11,7 @@ elif temperature>45:
 else:
     print("it is cooler")
 
-grade = 75
+grade = 25
 if grade >= 90:
     print("I scored an A")
 elif grade <= 80:
@@ -20,3 +20,5 @@ elif grade <=70:
     print("The score is a C")
 elif grade <= 60:
     print("D it is!")
+else:
+    print("Worst!!.. an E!")
