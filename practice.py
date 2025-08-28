@@ -2,6 +2,7 @@
 """
 if angered::
     print("I want to rest early!")
+"""
 
 temperature = 60
 if temperature<40:
@@ -33,7 +34,7 @@ for fruit in fruits:
 
 for number in range(45, 78):
     print(f"Number..: {number}")
-"""
+
 
 count = 2 # Sets the starting value
 while count <= 16:
