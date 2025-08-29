@@ -1,6 +1,6 @@
 #OOP
 #Defining a class
-
+"""
 class Car:
     color = "green"
 
@@ -26,3 +26,14 @@ car2 = Car("yellow", "Honda")
 #Output
 print(car1.color) 
 print(car2.model)
+        """
+        
+class Vehicle:
+    def _init_(self, wheels):
+        self.wheels = wheels
+        
+class Car(Vehicle):
+    pass
+
+car = Car(4)
+print(car.wheels) 
