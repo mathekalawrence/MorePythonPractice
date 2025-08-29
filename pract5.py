@@ -1,6 +1,6 @@
 #OOP
 #Defining a class
-"""
+
 class Car:
     color = "green"
 
@@ -12,7 +12,7 @@ class Car:
 my_car = Car()
 print(my_car.color)
 my_car.drive()
-"""
+
 
 class Car:
     def _init_(self, color, model):
