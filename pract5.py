@@ -1,6 +1,6 @@
 #OOP
 #Defining a class
-"""
+
 class Car:
     color = "green"
 
@@ -38,7 +38,6 @@ class Car(Vehicle):
 car = Car(4)
 print(car.wheels) 
 
-  """
 
 class Dog:
     def speak(self):
