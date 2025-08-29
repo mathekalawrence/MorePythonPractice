@@ -26,7 +26,7 @@ car2 = Car("yellow", "Honda")
 #Output
 print(car1.color) 
 print(car2.model)
-        """
+      
         
 class Vehicle:
     def _init_(self, wheels):
@@ -37,3 +37,17 @@ class Car(Vehicle):
 
 car = Car(4)
 print(car.wheels) 
+
+  """
+
+class Dog:
+    def speak(self):
+        return "Woohh!"
+    
+class Cat:
+    def speak(self):
+        return "Meow!"
+    
+#Polymorphism in action
+for animal in [Dog(), Cat()]:
+    print(animal.speak())
